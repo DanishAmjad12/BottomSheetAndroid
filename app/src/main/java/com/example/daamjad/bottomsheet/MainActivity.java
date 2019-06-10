@@ -1,12 +1,14 @@
 package com.example.daamjad.bottomsheet;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,8 +38,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                     break;
                     case BottomSheetBehavior.STATE_DRAGGING:
-                        sheetBehavior.setHideable(false);
-                        break;
                     case BottomSheetBehavior.STATE_SETTLING:
                         sheetBehavior.setHideable(false);
                         break;
