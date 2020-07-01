@@ -1,6 +1,6 @@
 # BottomSheetAndroid
 
-Bottom sheets is basically a slide up from the bottom of the screen to reveal more content.You can find more detailed information of Bottom Sheet on Google Material Design guidelines.
+🖥 Bottom sheets is basically a slide up from the bottom of the screen to reveal more content.You can find more detailed information of Bottom Sheet on Google Material Design guidelines.
 https://material.io/guidelines/components/bottom-sheets.html
 
 # The Types of Bottom Sheets
